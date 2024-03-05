@@ -21,7 +21,7 @@ public class TestBase {
 
     @BeforeMethod
     public void startTest(Method method, Object[] p){
-        logger.info("Start test " + method.getName() + " with data: " + Arrays.asList(p));
+        logger.info("Start tests " + method.getName() + " with data: " + Arrays.asList(p));
     }
 
     @AfterMethod
